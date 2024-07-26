@@ -1,7 +1,7 @@
 
 # React portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+view my profile page with  <a href="https://harinair.netlify.app/">Hari Nair's Profile </a>
 
 ## Available Scripts
 
