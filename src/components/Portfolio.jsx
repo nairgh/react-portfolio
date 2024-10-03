@@ -16,6 +16,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      project: "mern-chat",
       src: letusChat,
       link: 'https://letuscat.onrender.com/chats',
       repo: 'https://github.com/nairgh/MERN-chat'
@@ -45,7 +46,7 @@ const Portfolio = () => {
       repo: 'https://github.com/nairgh/dish-delights'
     },
   ];
-
+  console.log(portfolios.project);
   return (
     <div
       name="portfolio"
@@ -60,7 +61,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, link, repo }) => (
+          {portfolios.map(({ id, src, link, repo, project }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
