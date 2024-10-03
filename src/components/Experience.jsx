@@ -9,24 +9,26 @@ import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
-import express from "../assets/express.png"
-import mongodb from "../assets/mongodb.png"
-import redux from "../assets/redux.png"
-import springboot from "../assets/spring-boot.png"
-import mui from "../assets/mui.png"
+import express from "../assets/express.png";
+import mongodb from "../assets/mongodb.png";
+import redux from "../assets/redux.png";
+import springboot from "../assets/spring-boot.png";
+import mui from "../assets/mui.png";
 
-import ibm from "../assets/ibm.png"
-import gitlab from "../assets/gitlab.png"
-import laravel from "../assets/laravel.png"
-import php from "../assets/php.png"
-import googlecloud from "../assets/googlecloud.png"
-import next from "../assets/next.png"
-import cubernetes from "../assets/cubernetes.png"
-import docker from "../assets/docker.png"
-import bootstrap from "../assets/bootstrap.jpeg"
-import angular from "../assets/angular.png"
-import python from "../assets/python.png"
-import java from "../assets/java.png"
+import ibm from "../assets/ibm.png";
+import gitlab from "../assets/gitlab.png";
+import laravel from "../assets/laravel.png";
+import php from "../assets/php.png";
+import googlecloud from "../assets/googlecloud.png";
+import next from "../assets/next.png";
+import cubernetes from "../assets/cubernetes.png";
+import docker from "../assets/docker.png";
+import bootstrap from "../assets/bootstrap.jpeg";
+import angular from "../assets/angular.png";
+import python from "../assets/python.png";
+import java from "../assets/java.png";
+import oracle from "../assets/oracle.png";
+import mysql from "../assets/mysql.png";
 
 const Experience = () => {
   const techs = [
@@ -49,162 +51,177 @@ const Experience = () => {
       style: "shadow-blue-500",
     },
     {
-      id: 3,
+      id: 4,
       src: javascript,
       title: "JavaScript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 5,
       src: html,
       title: "html",
       style: "shadow-blue-600",
     },
     {
-      id: 5,
+      id: 6,
       src: node,
       title: "NodeJs",
       style: "shadow-green-400",
     },
     {
-      id: 6,
+      id: 7,
       src: nextjs,
       title: "Next JS",
       style: "shadow-white",
     },
     {
-      id: 25,
+      id: 8,
       src: python,
       title: "Python",
       style: "shadow-gray-400",
     },
     {
-      id: 26,
+      id: 9,
       src: java,
       title: "Java",
       style: "shadow-gray-400",
     },
 
     {
-      id: 8,
+      id: 10,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",
     },
     {
-      id: 9,
+      id: 11,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 10,
+      id: 12,
       src: express,
       title: "Express",
       style: "shadow-white",
     },
     {
-      id: 11,
+      id: 13,
       src: mongodb,
       title: "MongoDB",
       style: "shadow-green-500",
     },
     {
-      id: 12,
+      id: 14,
       src: redux,
       title: "Redux",
       style: "shadow-purple-500",
     },
     {
-      id: 13,
+      id: 15,
       src: springboot,
       title: "Spring Boot",
       style: "shadow-green-500",
     },
     {
-      id: 14,
+      id: 16,
       src: mui,
       title: "MaterialUI",
       style: "shadow-white",
     },
     {
-      id: 15,
+      id: 17,
       src: ibm,
       title: "IBM",
       style: "shadow-gray-400",
     },
     {
-      id: 16,
+      id: 18,
       src: gitlab,
       title: "Gitlab",
       style: "shadow-gray-400",
     },
     {
-      id: 17,
+      id: 19,
       src: laravel,
       title: "Laravel",
       style: "shadow-gray-400",
     },
     {
-      id: 18,
+      id: 20,
       src: php,
       title: "PHP",
       style: "shadow-slate-400",
     },
     {
-      id: 19,
+      id: 21,
+      src: mysql,
+      title: "MySQL",
+      style: "shadow-slate-400",
+    },
+
+    {
+      id: 22,
+      src: oracle,
+      title: "Oracle",
+      style: "shadow-slate-400",
+    },
+    {
+      id: 23,
       src: googlecloud,
       title: "Google Cloud",
       style: "shadow-yellow-400",
     },
     {
-      id: 20,
+      id: 24,
       src: next,
       title: "Next Js",
       style: "shadow-gray-400",
     },
     {
-      id: 21,
+      id: 25,
       src: cubernetes,
       title: "Cubernetes",
       style: "shadow-blue-400",
     },
     {
-      id: 22,
+      id: 26,
       src: docker,
       title: "Docker",
       style: "shadow-blue-400",
     },
     {
-      id: 23,
+      id: 27,
       src: bootstrap,
       title: "Bootstrap",
       style: "shadow-red-400",
     },
     {
-      id: 7,
+      id: 28,
       src: graphql,
       title: "GraphQL",
       style: "shadow-pink-400",
     },
-   
   ];
 
   return (
     <div
       name="experience"
       className="bg-gradient-to-b from-gray-800 to-black w-full "
-     >
+    >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-     <div className="pb-1 mt-11">
-             <div className="mt-11">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Experience
-          </p>
-       </div>
-            </div>
-          <p className="py-6">These are the technologies I've worked with and used them in my projects.</p>
-       
+        <div className="pb-1 mt-11">
+          <div className="mt-11">
+            <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+              Experience
+            </p>
+          </div>
+        </div>
+        <p className="py-6">
+          These are the technologies I've worked with and used them in my
+          projects.
+        </p>
+
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
