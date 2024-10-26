@@ -4,49 +4,47 @@ import grey from "../assets/portfolio/grey.jpg";
 import dishdelight from "../assets/portfolio/dishdelights.jpg";
 import shoploom from "../assets/portfolio/shoploom.jpg";
 import letusChat from "../assets/portfolio/letus-chat.jpg";
-import socialbook from "../assets/portfolio/socialbook.jpg";
-
+import generativeAI from "../assets/portfolio/genAI.jpg";
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: api,
-      link: 'https://viewcryptostatus.netlify.app/',
-      repo: 'https://github.com/nairgh/crypto-tracker'
+      link: "https://viewcryptostatus.netlify.app/",
+      repo: "https://github.com/nairgh/crypto-tracker",
     },
     {
       id: 2,
       project: "mern-chat",
       src: letusChat,
-      link: 'https://letuscat.onrender.com/chats',
-      repo: 'https://github.com/nairgh/MERN-chat'
+      link: "https://letuscat.onrender.com/chats",
+      repo: "https://github.com/nairgh/MERN-chat",
     },
     {
       id: 3,
       src: grey,
-      link: 'https://greyish-style.netlify.app/',
-      repo: 'https://github.com/nairgh/grayscale-design'
+      link: "https://greyish-style.netlify.app/",
+      repo: "https://github.com/nairgh/grayscale-design",
     },
     {
       id: 4,
-      src: socialbook,
-      link: 'https://socialmedia-socialbook.netlify.app/',
-      repo: 'https://github.com/nairgh/socialMedia-socialbook'
+      src: generativeAI,
+      link: "https://generativai.netlify.app/",
+      repo: "https://github.com/nairgh/GenerativeAI",
     },
     {
       id: 5,
       src: shoploom,
-      link: 'https://shoploom.netlify.app/',
-      repo: 'https://github.com/nairgh/Ecommerce-Redux-Toolkit'
+      link: "https://shoploom.netlify.app/",
+      repo: "https://github.com/nairgh/Ecommerce-Redux-Toolkit",
     },
     {
       id: 6,
       src: dishdelight,
-      link: 'https://delightdish.netlify.app/',
-      repo: 'https://github.com/nairgh/dish-delights'
+      link: "https://delightdish.netlify.app/",
+      repo: "https://github.com/nairgh/dish-delights",
     },
   ];
-  console.log(portfolios.project);
   return (
     <div
       name="portfolio"

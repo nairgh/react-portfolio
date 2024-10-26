@@ -29,6 +29,7 @@ import python from "../assets/python.png";
 import java from "../assets/java.png";
 import oracle from "../assets/oracle.png";
 import mysql from "../assets/mysql.png";
+import vue from "../assets/vue.jpg";
 
 const Experience = () => {
   const techs = [
@@ -202,6 +203,12 @@ const Experience = () => {
       title: "GraphQL",
       style: "shadow-pink-400",
     },
+    {
+      id: 29,
+      src: vue,
+      title: "Vue Js",
+      style: "shadow-green-400",
+    }
   ];
 
   return (
